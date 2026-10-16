@@ -6,23 +6,23 @@ class Lazyaws < Formula
   on_macos do
     depends_on macos: :sequoia
     on_arm do
-      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.1/lazyaws-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "bf09ae7f78478ad79e9693213761a513fbbf982f971b650142bab59c36cc765d"
+      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.2/lazyaws-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "a2737d9b8c0e4bde1b0498719e0a243b828532779f0d2fc69334bc1d7e85a94f"
     end
     on_intel do
-      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.1/lazyaws-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "5b639ebef3ee9ec2d3dfe47b2ab14e7d3f36ca0b8cfee59beec9ff0c57692836"
+      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.2/lazyaws-v0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "fae2606ac2efe64b3947c3372df0e5d95c4fcad5cfc6220fb8a228d514962bf2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.1/lazyaws-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "90d4e503a9bebb1e817350c5b6a70b158c147b8d576e501ec3be526ee3aaa7d7"
+      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.2/lazyaws-v0.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2245b69457ba3cf798979b6a2e5123a0dba06741a45f522b016560366849251b"
     end
     on_intel do
-      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.1/lazyaws-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "26a4de1afe0fef9ca38906d885927964d4f874ea735b41b72e46cbbecdfdb2ed"
+      url "https://github.com/capybara-brain346/lazyaws/releases/download/v0.2.2/lazyaws-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6fb4b3fc952289f971e74133f517f2d9214be98eb8604c3a8e7f4cb82f28f53f"
     end
   end
 
